@@ -1,0 +1,43 @@
+body{
+    font-size:25px;
+}
+.copy_right_footer{
+    position:fixed;
+    bottom:0;
+    text-align: center;
+    color:rgb(84, 16, 16);
+    background-color: rgb(230, 142, 142);
+    width:100%;
+    line-height:3;
+    font-family: monospace;
+    font-size:15px;
+}
+#heading_div{
+    background-color: rgb(227, 139, 157);
+width:100%;
+box-shadow: 5px 5px 5px grey;
+color:white;
+padding-top: 15px;
+animation-name: none;
+animation-duration: 4ms;
+}
+
+@keyframes none {
+    from{background-color: rgb(219, 114, 184);} 
+    to{background-color: rgb(204, 115, 148);}
+}
+p{
+    font-size:15px;
+    color:white;
+}
+h1{
+    font-family:monospace;
+    font-size:30px;
+    color:white;
+}
+canvas{
+    border: 5px solid rgb(221, 162, 237);
+    border-radius:20px;
+    box-shadow:5px 5px 5px rgb(246, 182, 182);
+   
+}
